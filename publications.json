@@ -1,0 +1,91 @@
+[
+  {
+    "year": 2026,
+    "title": "OptiGob 2.0: A Model-Driven Approach for Exploring Agri-Sustainability Projections",
+    "authors": ["Michael Mittermaier", "David Styles", "Judith Michael"],
+    "venue": "Workshop on Sustainability and Modeling, 2026",
+    "link": {
+      "url": "https://doi.org/10.5283/epub.79794",
+      "label": "DOI 10.5283/epub.79794"
+    }
+  },
+  {
+    "year": 2026,
+    "title": "A Pedagogy-Aware Model-Driven Engineering Approach for AI Literacy",
+    "authors": [
+      "Riccardo Belliato",
+      "Antonio Bucchiarone",
+      "Juri Di Rocco",
+      "Alfonso Pierantonio",
+      "Antonio Cicchetti",
+      "Judith Michael",
+      "Michael Mittermaier",
+      "Andrea Vázquez-Ingelmo",
+      "Jo Jo Tondeur",
+      "Thibaut Cromphaut",
+      "Sarah K. Howard"
+    ],
+    "venue": "Educator Symposium at MODELS 2026",
+    "link": null
+  },
+  {
+    "year": 2026,
+    "title": "The Case for Vibe Modeling: A Missing Step in AI-Based Trustworthy Software Development",
+    "authors": ["Shalini Chakraborty", "Michael Mittermaier", "Judith Michael"],
+    "venue": "Preprint",
+    "link": {
+      "url": "https://arxiv.org/pdf/2607.27923",
+      "label": "arXiv 2607.27923"
+    }
+  },
+  {
+    "year": 2026,
+    "title": "A Conceptual Architecture for Educational Digital Twins Supporting AI Literacy Across Educational and Professional Settings",
+    "authors": ["Antonio Bucchiarone", "Riccardo Belliato", "Judith Michael", "Michael Mittermaier"],
+    "venue": "Preprint",
+    "link": {
+      "url": "https://arxiv.org/abs/2607.10013",
+      "label": "arXiv 2607.10013"
+    }
+  },
+  {
+    "year": 2025,
+    "title": "Learning Graph Configuration Spaces to Support Road Network Design Optimisation",
+    "authors": ["Michael Mittermaier", "Takfarinas Saber", "Goetz Botterweck"],
+    "venue": "The Genetic and Evolutionary Computation Conference (GECCO), 2025",
+    "link": {
+      "url": "https://doi.org/10.1145/3712256.3726447",
+      "label": "DOI 10.1145/3712256.3726447"
+    }
+  },
+  {
+    "year": 2025,
+    "title": "Learning Graph Configuration Spaces in Engineering Domains",
+    "authors": ["Michael Mittermaier"],
+    "venue": "PhD thesis, 2025",
+    "link": {
+      "url": "https://www.tara.tcd.ie/handle/2262/111898",
+      "label": "Tara 2262/111898"
+    }
+  },
+  {
+    "year": 2025,
+    "title": "Applying Graph Neural Networks to Learn Graph Configuration Space",
+    "authors": ["Michael Mittermaier", "Takfarinas Saber", "Goetz Botterweck"],
+    "venue": "Conference on Variability Modelling of Software-Intensive Systems (VaMoS), 2025",
+    "link": {
+      "url": "https://doi.org/10.1145/3715340.3715444",
+      "label": "DOI 10.1145/3715340.3715444"
+    }
+  },
+  {
+    "year": 2023,
+    "title": "Learning Graph Configuration Spaces with Graph Embedding in Engineering Domains",
+    "authors": ["Michael Mittermaier", "Takfarinas Saber", "Goetz Botterweck"],
+    "venue": "The Conference on Machine Learning, Optimization, and Data Science (LOD), 2023",
+    "link": {
+      "url": "https://doi.org/10.1007/978-3-031-53966-4_25",
+      "label": "DOI 10.1007/978-3-031-53966-4_25"
+    }
+  }
+]

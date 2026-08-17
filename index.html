@@ -5,6 +5,27 @@
   <title>Michael Mittermaier</title>
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Michael Mittermaier, PhD — postdoctoral researcher at the University of Regensburg working on model-driven software engineering, digital twins, and multi-objective optimisation.">
+
+  <meta property="og:title" content="Michael Mittermaier, PhD">
+  <meta property="og:description" content="Postdoctoral researcher at the University of Regensburg working on model-driven software engineering, digital twins, and multi-objective optimisation.">
+  <meta property="og:image" content="https://mittemic.github.io/profile.jpeg">
+  <meta property="og:url" content="https://mittemic.github.io/">
+  <meta property="og:type" content="profile">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Michael Mittermaier, PhD">
+  <meta name="twitter:description" content="Postdoctoral researcher at the University of Regensburg working on model-driven software engineering, digital twins, and multi-objective optimisation.">
+  <meta name="twitter:image" content="https://mittemic.github.io/profile.jpeg">
+  <script>
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
 </head>
 <body>
 
@@ -25,6 +46,8 @@
   <a href="#publications">Publications</a>
   <a href="#contact">Contact</a>
 </nav>
+
+<button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
 
 <section id="about" class="container">
   <h2>About</h2>
@@ -89,6 +112,16 @@ Outside of the academic world, I am an amateur football player and enjoy an occa
       Brandenburg University of Technology Cottbus-Senftenberg
     </div>
   </div>
+  
+  <h3>Academic Service</h3>
+  <div class="cv-item">
+    <div class="cv-left">2026</div>
+    <div class="cv-right">
+      Program Committee Member for the 3rd International Workshop on Sustainability and Modeling<br>
+	  Reviewer for Künstliche Intelligenz - German Journal of Artificial Intelligence
+    </div>
+  </div>
+  
 
 </section>
 
@@ -96,90 +129,7 @@ Outside of the academic world, I am an amateur football player and enjoy an occa
 <section id="publications" class="container">
   <h2>Publications</h2>
 
-  <!-- <div class="pub-container"> -->
-
-    <!-- Add more publications here -->
-	
-	<span class="pub-year">2026</span>
-
-    <div class="publication">	
-      <p>
-        <strong>OptiGob 2.0: A Model-Driven Approach for Exploring Agri-Sustainability Projections</strong><br>
-	Michael Mittermaier, David Styles, Judith Michael<br>
-	<em>Workshop on Sustainability and Modeling, 2026</em><br>
-        <a href="https://doi.org/10.5283/epub.79794">DOI 10.5283/epub.79794</a>
-      </p>
-    </div>	
-
-    <div class="publication">	
-      <p>
-        <strong>A Pedagogy-Aware Model-Driven Engineering Approach for AI Literacy</strong><br>
-	 Riccardo Belliato, Antonio Bucchiarone, Juri Di Rocco, Alfonso Pierantonio, Antonio Cicchetti, Judith Michael, Michael Mittermaier, Andrea Vázquez-Ingelmo, Jo Jo Tondeur, Thibaut Cromphaut, Sarah K. Howard<br>
-	
-	<em>Educator Symposium at MODELS 2026</em><br>
-    <!--    <a href="https://doi.org/10.5283/epub.79794">DOI 10.5283/epub.79794</a> -->
-      </p>
-    </div>
-
-    <div class="publication">	
-      <p>
-        <strong>The Case for Vibe Modeling: A Missing Step in AI-Based Trustworthy Software Development</strong><br>
-	 Shalini Chakraborty, Michael Mittermaier, Judith Michael<br>
-	<em>Preprint</em><br>
-        <a href="https://arxiv.org/pdf/2607.27923">arXiv 2607.27923</a> 
-      </p>
-    </div>
-
-    <div class="publication">	
-      <p>
-        <strong>A Conceptual Architecture for Educational Digital Twins Supporting AI Literacy Across Educational and Professional Settings</strong><br>
-	Antonio Bucchiarone, Riccardo Belliato, Judith Michael, Michael Mittermaier<br>
-	<em>Preprint</em><br>
-        <a href="https://arxiv.org/abs/2607.10013">arXiv 2607.10013</a>
-      </p>
-    </div>
-    
-	<span class="pub-year">2025</span>
-	
-    <div class="publication">
-      <p>
-        <strong>Learning Graph Configuration Spaces to Support Road Network Design Optimisation</strong><br>
-	Michael Mittermaier, Takfarinas Saber, Goetz Botterweck<br>
-	<em>The Genetic and Evolutionary Computation Conference (GECCO), 2025</em><br>
-        <a href="https://doi.org/10.1145/3712256.3726447">DOI 10.1145/3712256.3726447</a>
-      </p>
-    </div>
-
-    <div class="publication">
-      <p>
-        <strong>Learning Graph Configuration Spaces in Engineering Domains</strong><br>
-	Michael Mittermaier<br>
-	<em>PhD thesis, 2025</em><br>
-        <a href="https://www.tara.tcd.ie/handle/2262/111898">Tara 2262/111898</a>
-      </p>
-    </div>
-
-    <div class="publication">
-      <p>
-        <strong>Applying Graph Neural Networks to Learn Graph Configuration Space</strong><br>
-	Michael Mittermaier, Takfarinas Saber, Goetz Botterweck<br>
-	<em>Conference on Variability Modelling of Software-Intensive Systems (VaMoS), 2025</em><br>
-        <a href="https://doi.org/10.1145/3715340.3715444">DOI 10.1145/3715340.3715444</a>
-      </p>
-    </div>
-
-	<span class="pub-year">2023</span>
-
-    <div class="publication">
-      <p>
-        <strong>Learning Graph Configuration Spaces with Graph Embedding in Engineering Domains</strong><br>
-	Michael Mittermaier, Takfarinas Saber, Goetz Botterweck<br>
-	<em>The 9th International Conference on Machine Learning, Optimization, and Data Science, 2023</em><br>
-        <a href="https://doi.org/10.1007/978-3-031-53966-4_25">DOI 10.1007/978-3-031-53966-4_25</a>
-      </p>
-    </div>
-
-  <!-- </div> -->
+  <div id="publications-list">Loading publications…</div>
 </section>
 
 
@@ -199,5 +149,7 @@ Outside of the academic world, I am an amateur football player and enjoy an occa
   <p>© 2026 Michael Mittermaier</p>
 </footer>
 
+<script src="script.js"></script>
+<script src="publications.js"></script>
 </body>
 </html>
