@@ -55,6 +55,32 @@ body {
   color: var(--link-color);
 }
 
+.social-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.social-links a:hover {
+  opacity: 1;
+}
+
+.social-icon {
+  display: block;
+  height: 50px;
+  width: auto;
+}
+
 header {
   background: var(--header-bg);
   border-bottom: 1px solid var(--header-border);
