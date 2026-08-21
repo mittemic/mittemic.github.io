@@ -81,6 +81,18 @@ body {
   width: auto;
 }
 
+.theme-icon-dark {
+  display: none;
+}
+
+[data-theme="dark"] .theme-icon-light {
+  display: none;
+}
+
+[data-theme="dark"] .theme-icon-dark {
+  display: block;
+}
+
 header {
   background: var(--header-bg);
   border-bottom: 1px solid var(--header-border);
