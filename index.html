@@ -5,6 +5,9 @@
   <title>Michael Mittermaier</title>
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <meta name="description" content="Michael Mittermaier, PhD — postdoctoral researcher at the University of Regensburg working on model-driven software engineering, digital twins, and multi-objective optimisation.">
 
   <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
@@ -35,35 +38,92 @@
 </head>
 <body>
 
-<header>
-  <div class="container header-content">
-    <img src="profile.jpeg" alt="Profile Photo" class="profile">
-    <div>
-      <h1>Michael Mittermaier, PhD</h1>
-      <p>Software Engineering · Digital Twins · Machine Learning · Multi-Objective Optimisation</p>
-    </div>
+<header class="hero">
+  <div class="hero-inner container">
+    <h1>Michael Mittermaier, PhD</h1>
+    <p class="hero-subtitle">Postdoctoral Researcher in Software Engineering</p>
+    <ul class="hero-social">
+      <li>
+        <a href="https://scholar.google.com/citations?user=ce06cjYAAAAJ&hl=en&oi=ao" aria-label="Google Scholar" title="Google Scholar">
+          <img src="icons/scholar-darkmode.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="https://orcid.org/0000-0003-4235-7414" aria-label="ORCID" title="ORCID">
+          <img src="icons/orcid-darkmode.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="https://dblp.org/pid/369/6333.html" aria-label="DBLP" title="DBLP">
+          <img src="icons/dblp-darkmode.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/michael-mittermaier/" aria-label="LinkedIn" title="LinkedIn">
+          <img src="icons/linkedin-darkmode.svg" alt="">
+        </a>
+      </li>
+      <li class="hero-social-break" aria-hidden="true"></li>
+      <li>
+        <a href="https://www.researchgate.net/profile/Michael-Mittermaier-2" aria-label="ResearchGate" title="ResearchGate">
+          <img src="icons/researchgate-darkmode.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/mittemic" aria-label="GitHub" title="GitHub">
+          <img src="icons/github-darkmode.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.uni-regensburg.de/en/informatik-data-science/fakultaet/einrichtungen/programmierung-und-software-engineering/team/michael-mittermaier" aria-label="University of Regensburg" title="University of Regensburg">
+          <img src="icons/uni-regensburg-darkmode.svg" alt="">
+        </a>
+      </li>
+    </ul>
   </div>
 </header>
 
-<nav>
-  <a href="#about">About</a>
-<!-- <a href="#research">Research</a> -->
-  <a href="#cv">CV</a>
-  <a href="#publications">Publications</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+<div class="pill-nav-wrap">
+  <nav class="pill-nav">
+    <a href="#about">About</a>
+    <a href="#cv">CV</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+    <button id="theme-toggle" aria-label="Toggle dark mode">
+      <svg class="toggle-icon toggle-icon-moon" viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path fill="#000000" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+      <svg class="toggle-icon toggle-icon-sun" viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="12" cy="12" r="5" fill="#ffffff"/>
+        <g stroke="#ffffff" stroke-width="2" stroke-linecap="round">
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </g>
+      </svg>
+    </button>
+  </nav>
+</div>
 
 <section id="about" class="container">
-  <h2>About</h2>
-  <p>
-    Hi! I am currently a postdoctoral researcher in the programming and software engineering group at University of Regensburg. In this position, I conduct research in model-driven software engineering and digital twins. <br>
+  <div class="about-grid">
+    <img src="profile.jpeg" alt="Michael Mittermaier" class="about-avatar">
+    <div class="about-content">
+      <h2>Hi there!</h2>
+      <p>
+        I am currently a postdoctoral researcher in the programming and software engineering group at University of Regensburg. In this position, I conduct research in model-driven software engineering and digital twins. <br>
 
 I have a strong background in software engineering, metaheuristic optimisation, and machine learning on graph structures due to my doctoral research. I've used my experience in an interdisciplinary collaboration with agri-sustainability researchers at the University of Galway.  <br>
 
 Outside of the academic world, I am an amateur football player and enjoy an occasional game of chess.
-  </p>
+      </p>
+    </div>
+  </div>
 </section>
 
 <!--
@@ -88,7 +148,7 @@ Outside of the academic world, I am an amateur football player and enjoy an occa
     <div class="cv-right">
       <strong>Postdoctoral Researcher</strong><br>
       University of Regensburg<br>
-      Research on digital twins
+      Research on model-driven software engineering and digital twins
     </div>
   </div>
 
@@ -142,50 +202,51 @@ Outside of the academic world, I am an amateur football player and enjoy an occa
 
 <section id="contact" class="container">
   <h2>Contact</h2>
-  <p>Email: michael.mittermaier ( at ) ur.de</p>
-  <ul class="social-links">
-    <li>
-      <a href="https://scholar.google.com/citations?user=ce06cjYAAAAJ&hl=en&oi=ao" aria-label="Google Scholar" title="Google Scholar">
-        <img src="icons/scholar.svg" alt="" class="social-icon">
-      </a>
-    </li>
-    <li>
-      <a href="https://orcid.org/0000-0003-4235-7414" aria-label="ORCID" title="ORCID">
-        <img src="icons/orcid.svg" alt="" class="social-icon">
-      </a>
-    </li>
-    <li>
-      <a href="https://dblp.org/pid/369/6333.html" aria-label="DBLP" title="DBLP">
-        <img src="icons/dblp.svg" alt="" class="social-icon">
-      </a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/michael-mittermaier/" aria-label="LinkedIn" title="LinkedIn">
-        <img src="icons/linkedin.svg" alt="" class="social-icon">
-      </a>
-    </li>
-    <li>
-      <a href="https://www.researchgate.net/profile/Michael-Mittermaier-2" aria-label="ResearchGate" title="ResearchGate">
-        <img src="icons/researchgate.svg" alt="" class="social-icon">
-      </a>
-    </li>
-    <li>
-      <a href="https://github.com/mittemic" aria-label="GitHub" title="GitHub">
-        <img src="icons/github.svg" alt="" class="social-icon theme-icon-light">
-        <img src="icons/github-darkmode.svg" alt="" class="social-icon theme-icon-dark">
-      </a>
-    </li>
-    <li>
-      <a href="https://www.uni-regensburg.de/en/informatik-data-science/fakultaet/einrichtungen/programmierung-und-software-engineering/team/michael-mittermaier" aria-label="University of Regensburg" title="University of Regensburg">
-        <img src="icons/uni-regensburg.svg" alt="" class="social-icon theme-icon-light">
-        <img src="icons/uni-regensburg-darkmode.svg" alt="" class="social-icon theme-icon-dark">
-      </a>
-    </li>
-  </ul>
+  <div class="contact-grid">
+    <div class="contact-left">
+      <p class="contact-name">Michael Mittermaier, PhD</p>
+      <p class="contact-title">Postdoctoral Researcher</p>
+      <p class="contact-email">michael.mittermaier ( at ) ur.de</p>
+      <p class="contact-affiliation">
+        <img src="icons/uni-regensburg.svg" alt="" class="contact-icon theme-icon-light">
+        <img src="icons/uni-regensburg-darkmode.svg" alt="" class="contact-icon theme-icon-dark">
+        <a href="https://www.uni-regensburg.de/en/informatik-data-science/fakultaet/einrichtungen/programmierung-und-software-engineering/team/michael-mittermaier">University of Regensburg</a>
+      </p>
+    </div>
+    <div class="contact-right">
+      <ul class="contact-links">
+        <li>
+          <img src="icons/scholar.svg" alt="" class="contact-icon">
+          <a href="https://scholar.google.com/citations?user=ce06cjYAAAAJ&hl=en&oi=ao">Google Scholar</a>
+        </li>
+        <li>
+          <img src="icons/orcid.svg" alt="" class="contact-icon">
+          <a href="https://orcid.org/0000-0003-4235-7414">ORCID</a>
+        </li>
+        <li>
+          <img src="icons/dblp.svg" alt="" class="contact-icon">
+          <a href="https://dblp.org/pid/369/6333.html">DBLP</a>
+        </li>
+        <li>
+          <img src="icons/linkedin.svg" alt="" class="contact-icon">
+          <a href="https://www.linkedin.com/in/michael-mittermaier/">LinkedIn</a>
+        </li>
+        <li>
+          <img src="icons/researchgate.svg" alt="" class="contact-icon">
+          <a href="https://www.researchgate.net/profile/Michael-Mittermaier-2">ResearchGate</a>
+        </li>
+        <li>
+          <img src="icons/github.svg" alt="" class="contact-icon theme-icon-light">
+          <img src="icons/github-darkmode.svg" alt="" class="contact-icon theme-icon-dark">
+          <a href="https://github.com/mittemic">GitHub</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 <footer>
-  <p>© 2026 Michael Mittermaier</p>
+  <p>© 2026 Michael Mittermaier, Photo UR/Pröls</p>
 </footer>
 
 <script src="script.js"></script>
